@@ -1,0 +1,64 @@
+#header .aui-header {
+    background-color: #253c6c;
+    border-color: #b193c1;
+}
+
+
+#title-text a{
+  color:#2b4635;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.epms {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+}
+
+
+.epms table{
+    width: 100%;
+}
+
+.epms h1 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+.tombstone{
+  background-color: #2b4635;
+/*  background-image: url("Beaver_White.png");*/
+  background-repeat: no-repeat;
+  background-position:right;
+  color:white;
+  width:100%;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+.tombstone h1,
+.tombstone h2{
+  color:white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 50;
+  line-height: 30px;
+}
+
+table.confluenceTable th.confluenceTh,
+table.confluenceTable th.confluenceTh > p,
+table.confluenceTable td.confluenceTd.highlight, /* deprecated */
+table.confluenceTable td.confluenceTd.highlight > p, /* deprecated */
+table.confluenceTable th.confluenceTh.highlight-grey,
+table.confluenceTable th.confluenceTh.highlight-grey > p,
+table.confluenceTable td.confluenceTd.highlight-grey,
+table.confluenceTable td.confluenceTd.highlight-grey > p {
+    background-color: #6abaec;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color:#FFFFFF
+}

@@ -1,0 +1,9 @@
+<div class="epms">
+<table class="tombstone">
+  <tr><td>
+    <h1><at:var at:name="vName"/></h1>
+<h2>Project Name: <at:var at:name="name"/></h2>
+<h2>Project Number: <at:var at:name="projectNumber"/></h2>
+</td></tr>
+</table>
+</div>

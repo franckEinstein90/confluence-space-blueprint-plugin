@@ -1,0 +1,125 @@
+<ac:layout>
+    <ac:layout-section ac:type="single">
+        <ac:layout-cell>
+          <div class="epms">
+          <ac:placeholder>List all activities that must happen to carry out your project</ac:placeholder>
+          <table class="tombstone">
+            <tr><td>
+              <h1><at:var at:name="vName"/></h1>
+          <h2>Project Name: <at:var at:name="name"/></h2>
+          <h2>Project Number: <at:var at:name="projectNumber"/></h2>
+        </td></tr>
+      </table>
+
+          <h1 class="auto-cursor-target">Team</h1>
+<table class="relative-table wrapped epms">
+
+<tbody>
+<tr>
+<th colspan="1">Project Leader</th>
+<th colspan="1">Project Manager</th>
+<th colspan="1">Management Unit</th>
+<th colspan="1">Status</th></tr>
+<tr>
+<td colspan="1"><at:var at:name="projectLeader"/></td>
+<td colspan="1"><at:var at:name="projectManager"/></td>
+<td colspan="1"><at:var at:name="managementUnit"/></td>
+<td colspan="1">
+  <div class="content-wrapper">
+    <h2><ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="b5f867e7-b423-48f9-9803-0ab7c0172026"><ac:parameter ac:name="colour">Yellow</ac:parameter><ac:parameter ac:name="title">ACTIVE</ac:parameter></ac:structured-macro> / <ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="326bc0f0-8782-4fb2-8fd2-02915d28ccf1"><ac:parameter ac:name="colour">Blue</ac:parameter><ac:parameter ac:name="title">INACTIVE</ac:parameter></ac:structured-macro> / <ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="eb8990de-5b03-4101-a4b4-220217b4ae3e"><ac:parameter ac:name="colour">Green</ac:parameter><ac:parameter ac:name="title">SHIPPED</ac:parameter></ac:structured-macro></h2>
+    <p><br /></p>
+  </div></td></tr></tbody>
+</table>
+
+<h1><br />Problem Space</h1>
+<table class="epms"><colgroup><col style="width:25%"/><col /></colgroup>
+<tbody>
+<tr>
+<th>Problem statement</th>
+<td><ac:placeholder><span>Describe the problem and its impact</span></ac:placeholder></td></tr>
+<tr>
+<th colspan="1">Hypothesis</th>
+<td colspan="1"><ac:placeholder><span>We believe that (this capability) will result in (this outcome). We will know we have succeeded when (we see this measurable signal)</span></ac:placeholder></td></tr>
+<tr>
+<th colspan="1">Background Information</th>
+<td colspan="1"><ac:placeholder>Why are you doing this project? Do you have data or insights to support this project?</ac:placeholder></td></tr>
+<tr>
+<th colspan="1">Measures of success</th>
+<td colspan="1"><ac:placeholder>How you will judge success of your project? What metrics will be affected?</ac:placeholder></td></tr></tbody></table>
+<p><br /></p>
+
+<h1>Scope</h1>
+<p><strong>Project Scope Description: </strong> <at:var at:name="description"/></p>
+
+
+<table class="relative-table epms"><colgroup>
+<col style="width: 25%;" /><col /></colgroup>
+<tbody>
+<tr>
+<th><br /></th>
+<th>Activity</th></tr>
+<tr>
+<th>Must have</th>
+<td><ac:placeholder>List all activities that must happen to carry out your project</ac:placeholder></td></tr>
+<tr>
+<th colspan="1">Nice to have</th>
+<td colspan="1"><ac:placeholder>List all activities that would be nice to have, but aren&rsquo;t necessary to move your project forward</ac:placeholder></td></tr>
+<tr>
+<th colspan="1">Not in scope</th>
+<td colspan="1"><ac:placeholder>List any activities that you won&rsquo;t do during the duration of this project but may revisit later</ac:placeholder></td></tr></tbody></table>
+<p><br /></p>
+<p><br /></p>
+<h1>Budget</h1>
+<p>Total:</p>
+<table><colgroup><col /><col /><col /></colgroup>
+<tbody>
+<tr>
+<th>Date</th>
+<th>Description</th>
+<th colspan="1">Cost</th></tr>
+<tr>
+<td>Add date</td>
+<td><ac:placeholder>List each item that requires spend here</ac:placeholder></td>
+<td colspan="1"><ac:placeholder>Put the cost for each line item here</ac:placeholder></td></tr>
+<tr>
+<td colspan="1"><br /></td>
+<td colspan="1"><br /></td>
+<td colspan="1"><br /></td></tr></tbody></table>
+<p><br /></p>
+<h1>Milestones and deadlines</h1>
+<table><colgroup><col /><col /><col /><col /></colgroup>
+<tbody>
+<tr>
+<th>Milestone</th>
+<th>Owner</th>
+<th>Deadline</th>
+<th>Status</th></tr>
+<tr>
+<td><ac:placeholder>List each major activity for your project</ac:placeholder></td>
+<td><ac:placeholder>Name owner</ac:placeholder></td>
+<td><ac:placeholder>Add date</ac:placeholder></td>
+<td><br /></td></tr></tbody></table>
+<p><br /></p>
+<h1>Reference materials</h1>
+<p><ac:placeholder>Add links to relevant research and other key documents here</ac:placeholder></p>
+<ul>
+<li>Link 1&nbsp;</li>
+<li>Link 2</li></ul>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+
+
+
+
+            <p>
+                <ac:macro ac:name="children">
+                    <ac:parameter ac:name="page"></ac:parameter>
+                    <ac:parameter ac:name="all">true</ac:parameter>
+                </ac:macro>
+            </p>
+          </div>
+        </ac:layout-cell>
+    </ac:layout-section>
+</ac:layout>

@@ -1,0 +1,16 @@
+<div class="epms">
+<ac:placeholder>List all activities that must happen to carry out your project</ac:placeholder>
+<table class="tombstone">
+  <tr><td>
+    <h1><at:var at:name="vName"/></h1>
+<h2>Project Name: <at:var at:name="name"/></h2>
+<h2>Project Number: <at:var at:name="projectNumber"/></h2>
+</td></tr>
+</table>
+
+<p>
+    This is a the project management and oversight page..
+
+    It includes some data from a context provider: <at:var at:name="foo" />
+</p>
+</div>
