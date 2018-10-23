@@ -1,0 +1,1 @@
+# confluence-space-blueprint-plugin
